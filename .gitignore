@@ -123,3 +123,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Aulas/.idea/modules.xml
+Aulas/.idea/misc.xml
+Aulas/.idea/inspectionProfiles/profiles_settings.xml
+Aulas/.idea/cursopython.iml
+Aulas/.idea/aws.xml
+Aulas/aula106/ffmpeg/ffmpeg.exe

@@ -1,0 +1,15 @@
+ERROR: Samsung não está ligado
+INFO: Samsung está conectado
+INFO: Samsung Desconectado com sucesso
+ERROR: Samsung não está ligado
+ERROR: Samsung não está ligado
+INFO: Samsung está conectado
+INFO: Samsung Desconectado com sucesso
+INFO: Samsung está conectado
+ERROR: Samsung Já está conectado
+ERROR: Samsung Já está conectado
+INFO: Samsung Desconectado com sucesso
+INFO: Samsung está conectado
+ERROR: Samsung Já está conectado
+ERROR: Samsung Já está conectado
+INFO: Samsung Desconectado com sucesso
