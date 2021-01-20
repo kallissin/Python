@@ -17,9 +17,9 @@ with open('template.html', 'r') as html:
 
 #CONFIGURANDO O EMAIL COM TITULO, REMETENDE E DESTINATARIO.
 msg = MIMEMultipart()
-msg['from'] = 'Kelvin Alisson Cantarino'
-msg['to'] = 'andersonfelixmsouza@gmail.com'
-msg['subject'] = 'Atenção: este é um e-mail de testes.'
+msg['from'] = 'Joaozinho'  # Nome de quem esta enviando
+msg['to'] = 'Joaozinho_inho_1233212@gmail.com'  # email de quem vai receber
+msg['subject'] = 'Atenção: este é um e-mail de testes.'  # título do e-mail
 
 #TEXTO DO EMAIL.
 corpo = MIMEText(corpo_msg, 'html')
@@ -31,7 +31,8 @@ with open('imagem.jpg', 'rb') as img:
     img = MIMEImage(img.read())
     msg.attach(img)
 
-#CONECTANDO COM O SERVIDOR
+# CONECTANDO COM O SERVIDOR
+# Se for hotmail, o "host" e "port" será diferente.
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     try:
         smtp.ehlo()
