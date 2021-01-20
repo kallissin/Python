@@ -10,7 +10,7 @@
  132 | Enviando e-mail | Enviar e-mail utilizando um script .py com um template
  133 | ZIP | Compactando/Descompactando arquivos
  135 | Web Scraping | Coletando dados de um site
- ~~136~~ | Selenium | Criando uma automatização simples~~
+ ~~136~~ | ~~Selenium~~ | ~~Criando uma automatização simples~~
  140 | PyPDF2 | Unindo e dividindo arquivos PDF
  142 | Openpyxl | Manipulando linhas e colunas do Excel
  143 | Pillow | Redimensionando várias imagens automaticamente
