@@ -10,6 +10,7 @@ from PyPDF2 import PdfFileMerger, PdfFileReader, PdfFileWriter
 import os
 
 """
+#juntar arquivos
 caminho_dos_pdfs = 'pdf1'
 
 novo_pdf = PdfFileMerger()
@@ -24,7 +25,7 @@ for root, dirs, files in os.walk(caminho_dos_pdfs):
 with open(f'{caminho_dos_pdfs}/novo_arquivo.pdf', 'wb') as meu_novo_pdf:
     novo_pdf.write(meu_novo_pdf)
 """
-pag = int(input('Digite a pagina final do primeiro arquivo: '))
+#dividir arquivos por paginas, caso desejar juntar as paginas, poderá utilizar o codigo a cima.
 with open('pdf1/novo_arquivo.pdf', 'rb') as arquivo_pdf:
     leitor = PdfFileReader(arquivo_pdf)
     num_paginas = leitor.getNumPages()
@@ -34,6 +35,6 @@ with open('pdf1/novo_arquivo.pdf', 'rb') as arquivo_pdf:
         pagina_atual = leitor.getPage(num_pagina)
         escritor.addPage(pagina_atual)
 
-        with open('novos_pdfs/arquivo1.pdf', 'ab') as novo_pdf:
+        with open(f'novos_pdfs/{num_pagina}.pdf', 'ab') as novo_pdf:
             escritor.write(novo_pdf)
         
