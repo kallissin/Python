@@ -8,4 +8,3 @@ with open('template.html', 'r') as html:
     #podemos utilizar outro comando caso ouver no template "$outro" e não foi passado como argumento.
     #corpo_msg = template.safe_substitute(nome='Kelvin Alisson', data=date)
 
-print(corpo_msg)
